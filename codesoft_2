@@ -2,15 +2,17 @@
 using namespace std;
 
 int main() {
-
   char op;
   float num1, num2;
 
   cout << "Enter operator: +, -, *, /: ";
   cin >> op;
 
-  cout << "Enter two operands: ";
-  cin >> num1 >> num2;
+  cout << "Enter first operands: ";
+  cin >> num1;
+  cout << "Enter second operands: ";
+  cin >> num2;
+
 
   switch(op) {
 
